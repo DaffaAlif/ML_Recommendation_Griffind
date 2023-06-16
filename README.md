@@ -9,10 +9,10 @@ There are 2 model that are used in Griffind:
 1. knn_model : the model that is used to find the nearest griya from the user location
 2. griya_recommendation_model : the model that is used to recommend griya based on the ratings
 
-### knn_model
+### knn_model.pkl
 This model retrieves the user's location based on the coordinates (latitude and longitude) then the model will process it and output the nearest griya name from the user's location. This model uses scikit_learn K-nearest-neighbour to predict the nearest griya
 
-### griya_recommendation_model
+### griya_recommendation_model (folder)
 this model retrieves the user id's then the model will process it and output the recommended griya based on the user's rating and other users ratings on the griya in the dataset. the output will be 3 recommended griya and the corresponding user id's 
 
 ## Deployment
